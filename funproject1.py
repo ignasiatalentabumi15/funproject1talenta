@@ -30,7 +30,7 @@
 #b. Design Grafis
 #c. Statistika
 
-#Logika Skoring:check
+#Logika Skoring:
 
 # mini_quiz_app.py
 
@@ -58,7 +58,7 @@ scores = {"Programmer": 0, "Designer": 0, "Data Scientist": 0}
 
 # Pertanyaan 1
 q1 = st.radio(
-    "1. Kamu suka belajar apa?",
+     "### **1. KAMU SUKA BELAJAR APA?**",
     ["Matematika dan Algoritma Pemrograman", "Menggambar atau membuat desain", "Statistika dan Analisis Data"]
 )
 if q1 == "Matematikda dan Algoritma Pemrograman":
@@ -70,7 +70,7 @@ else:
 
 # Pertanyaan 2
 q2 = st.radio(
-    "2. Tool mana yang paling menarik menurutmu?",
+     "### **2. TOOL MANA YANG PALING MENARIK MENURUTMU?**",
     ["Visual Studio Code / PyCharm", "Figma / Photoshop", "Excel / R Studio"]
 )
 if q2 == "Visual Studio Code / PyCharm":
@@ -82,7 +82,7 @@ else:
 
 # Pertanyaan 3
 q3 = st.radio(
-    "3. Kalau lagi stress, kamu lebih suka ngapain?",
+    "### **3. KALAU LAGI STRESS, KAMU SUKA NGAPAIN?**",
     ["Mencari solusi lewat logika & algoritma", "Mencari ide kreatif & estetik", "Mencari pola lewat data"]
 )
 if q3 == "Mencari solusi lewat logika & algoritma":
@@ -103,4 +103,3 @@ if st.button("Lihat Hasil 💻🎨📊"):
         st.success("🎨 Kamu cocok jadi **Designer**! Kreativitas dan estetika adalah kekuatanmu.")
     else:
         st.success("📊 Kamu cocok jadi **Data Scientist**! Kamu suka angka, analisis, dan membuat insight dari data.")
-
