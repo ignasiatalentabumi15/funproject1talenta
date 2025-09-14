@@ -30,7 +30,7 @@
 #b. Design Grafis
 #c. Statistika
 
-#Logika Skoring:
+#Logika Skoring:check
 
 # mini_quiz_app.py
 
@@ -103,3 +103,4 @@ if st.button("Lihat Hasil 💻🎨📊"):
         st.success("🎨 Kamu cocok jadi **Designer**! Kreativitas dan estetika adalah kekuatanmu.")
     else:
         st.success("📊 Kamu cocok jadi **Data Scientist**! Kamu suka angka, analisis, dan membuat insight dari data.")
+
